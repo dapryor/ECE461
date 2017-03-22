@@ -1,0 +1,63 @@
+The 'RTX_Blinky' project is a simple demo program for Freescale 'MKL25' series 
+microcontroller using Freescale 'FRDM-KL25Z' evaluation board populated with
+MKL25Z128xxx4 device, compliant to Cortex Microcontroller Software Interface Standard (CMSIS v2.0).
+
+Example functionality
+ - Core Clock runs at 48000000 Hz                                                   
+
+The simple RTX Kernel based example simulates the step-motor 
+driver. LED D3 is blinking in Red/Green/Blue simulating the activation of 
+the four output driver stages:
+
+- phase A
+- phase B
+- phase C
+- phase D
+
+This example simulates Half step driver mode and
+CW rotation direction.
+
+
+The RTX_Blinky program is available in different targets:
+  ULink -Flash:                    Debug/Target Driver is configured as ULink
+                                   runs from Internal Flash located on chip
+                                  (used for production or target debugging)
+
+  ULink -RAM:                      Debug/Target Driver is configured as ULink
+                                   runs from Internal RAM located on chip
+                                  (used for target debugging)
+
+  ULinkPro -Flash:                 Debug/Target Driver is configured as ULinkPro
+                                   runs from Internal Flash located on chip
+                                  (used for production or target debugging)
+
+  ULinkPro -RAM:                   Debug/Target Driver is configured as ULinkPro
+                                   runs from Internal RAM located on chip
+                                  (used for target debugging)
+
+  CMSIS-DAP -Flash:                Debug/Target Driver is configured as CMSIS-DAP OpenSDA
+                                   runs from Internal Flash located on chip
+                                  (used for production or target debugging)
+
+  CMSIS-DAP -RAM:                  Debug/Target Driver is configured as CMSIS-DAP OpenSDA
+                                   runs from Internal RAM located on chip
+                                  (used for target debugging)
+
+  P&E Micro -Flash:                Debug/Target Driver is configured as P&E Micro OpenSDA
+                                   runs from Internal Flash located on chip
+                                  (used for production or target debugging)
+
+  P&E Micro -RAM:                  Debug/Target Driver is configured as P&E Micro OpenSDA
+                                   runs from Internal RAM located on chip
+                                  (used for target debugging)
+
+Selecting "P&E Micro" or "CMSIS-DAP" OpenSDA application:
+ 1. Start OpenSDA in bootloader mode: Unplug and plug the OpenSDA USB connection whilst pushbutton, SW1 is pressed. 
+ 2. Drag and drop "P&E Micro" or "CMSIS-DAP" OpenSDA application file to the OpenSDA mass storage device. 
+ 3. Unplug and plug the OpenSDA USB connection.
+ 
+Note:
+ - P&E Micro OpenSDA requires Freescale Kinetis OSJTAG Drivers V1.06 or higher. It must be 
+   installed to the same directory as MDK-ARM. Download the drivers from www.keil.com/download/docs/408.asp.
+ - "P&E Micro" or "CMSIS-DAP" OpenSDA application file can be downloaded here: 
+ - For more information on OpenSDA, refer to FRDM-KL25Z user manual. 

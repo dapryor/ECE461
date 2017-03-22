@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.12.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Alexander Dean, North Carolina State University, LIC=IC9TL-JLX5P-VNNFG-TIA77-47UGM-XIR90
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.12.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DARMCM1.DLL V1.11.00.0
+Target DLL:      CMSIS_AGDI.dll V1.19.0.0
+Dialog DLL:      TARMCM1.DLL V1.08.00.0
+ 
+<h2>Project:</h2>
+C:\Users\Alex\Documents\Teaching\Book Writing\ARM Cortex M0Plus\Course Materials\IntroCourse\Modules\Debugging\Code\Debug Demo - MTB\BasicUI.uvproj
+Project File Date:  01/20/2015
+
+<h2>Output:</h2>
+Build target 'KL25Z Flash'
+assembling startup_MKL25Z4.s...
+compiling system_MKL25Z4.c...
+compiling LCD_4bit.c...
+compiling main.c...
+src\main.c(62): warning:  #181-D: argument is incompatible with corresponding format string conversion
+                sprintf (buff, "%6.4d V", voltage); // bug 3, format string should be "%6.4f V"
+src\main.c: 1 warning, 0 errors
+compiling LEDs.c...
+compiling delay.c...
+linking...
+Program Size: Code=3188 RO-data=224 RW-data=4 ZI-data=1028  
+".\obj\BasicUI.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Course Materials\\IntroCourse\\Modules\\Debugging\\Code\\Debug Demo - MTB\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+</pre>
+</body>
+</html>

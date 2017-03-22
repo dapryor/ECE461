@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Alexander Dean, North Carolina State University, LIC=7YKWI-CYEHS-C5L0M-VGCD1-95MI8-37TFM
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.16.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Alex\Documents\Teaching\ECE492 - ESA\Code\git\ESA\MCU_Intro_UV5\Serial-Demo\Serial-Demo.uvprojx
+Project File Date:  12/02/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling UART.c...
+src\UART.c(69): warning:  #550-D: variable "temp" was set but never used
+  	uint8_t temp;
+src\UART.c(294): warning:  #550-D: variable "ch" was set but never used
+  	uint8_t ch;
+src\UART.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=4544 RO-data=352 RW-data=12 ZI-data=1660  
+".\Objects\Serial-Demo.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0-Beta4.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.Kinetis_KLxx_DFP.1.12.0.pack
+                Keil::Device:Startup:2.5.0
+                NXP Kinetis KLxx Series Device Support and Examples
+   * Component: Startup Version: 2.5.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Alex\Documents\Teaching\ECE492 - ESA\Code\git\ESA\MCU_Intro_UV5\Serial-Demo\RTE
+  C:\Users\Alex\Documents\Teaching\ECE492 - ESA\Code\git\ESA\MCU_Intro_UV5\Serial-Demo\RTE\Device\MKL25Z128xxx4
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+
+   * Component: Keil::Device:Startup:2.5.0
+      Source file:   Device\Source\system_MKL25Z4.c
+      Source file:   Device\Source\ARM\startup_MKL25Z4.s
+      Include file:  Device\Source\system_MKL25Z4.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

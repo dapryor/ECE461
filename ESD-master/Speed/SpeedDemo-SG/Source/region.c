@@ -1,0 +1,73 @@
+// Automatically generated file. Do not edit if you plan to regenerate it.
+#include "region.h"
+const REGION_T RegionTable[] = {
+	{0x000000c1, 0x000000c8, "__main"}, // 0
+	{0x000000c9, 0x000000fc, "__scatterload_rt2"}, // 1
+	{0x00000105, 0x0000011e, "__scatterload_copy"}, // 2
+	{0x00000121, 0x0000013c, "__scatterload_zeroinit"}, // 3
+	{0x00000165, 0x00000170, "Reset_Handler"}, // 4
+	{0x00000171, 0x00000172, "NMI_Handler"}, // 5
+	{0x00000173, 0x00000174, "HardFault_Handler"}, // 6
+	{0x00000175, 0x00000176, "SVC_Handler"}, // 7
+	{0x00000177, 0x00000178, "PendSV_Handler"}, // 8
+	{0x00000179, 0x0000017a, "SysTick_Handler"}, // 9
+	{0x000001a5, 0x00000244, "strcmp"}, // 10
+	{0x00000245, 0x00000246, "__use_two_region_memory"}, // 11
+	{0x00000247, 0x00000248, "__rt_heap_escrow$2region"}, // 12
+	{0x00000249, 0x0000024a, "__rt_heap_expand$2region"}, // 13
+	{0x0000024b, 0x00000254, "__read_errno"}, // 14
+	{0x00000255, 0x00000260, "__set_errno"}, // 15
+	{0x00000261, 0x000002c0, "__fpl_fcmp_InfNaN"}, // 16
+	{0x000002c5, 0x00000310, "_ffix"}, // 17
+	{0x00000311, 0x0000038a, "_frnd"}, // 18
+	{0x00000391, 0x000003d0, "__ARM_scalbnf"}, // 19
+	{0x000003d5, 0x000003dc, "__aeabi_errno_addr"}, // 20
+	{0x000003dd, 0x000003e6, "__fpl_fcheck_NaN2"}, // 21
+	{0x000003ed, 0x000003f4, "__user_libspace"}, // 22
+	{0x000003f5, 0x000003fc, "_sys_exit"}, // 23
+	{0x00000411, 0x0000055e, "_fdiv"}, // 24
+	{0x0000055f, 0x00000566, "_frdiv"}, // 25
+	{0x00000571, 0x0000059e, "__fpl_cmpreturn"}, // 26
+	{0x0000059f, 0x000005e6, "__aeabi_i2f_normalise"}, // 27
+	{0x000005e7, 0x000005f6, "__aeabi_i2f"}, // 28
+	{0x000005f7, 0x000005fc, "__aeabi_ui2f"}, // 29
+	{0x000005fd, 0x00000688, "_fsqrt"}, // 30
+	{0x0000068d, 0x000006ca, "__user_setup_stackheap"}, // 31
+	{0x000006cb, 0x000006da, "exit"}, // 32
+	{0x000006db, 0x00000738, "__fpl_return_NaN"}, // 33
+	{0x00000739, 0x0000073a, "__use_no_semihosting_swi"}, // 34
+	{0x0000073d, 0x000007e8, "Calc_Bearing"}, // 35
+	{0x000007f5, 0x00000828, "Control_RGB_LEDs"}, // 36
+	{0x00000831, 0x0000083a, "Disable_Profiling"}, // 37
+	{0x00000841, 0x0000084a, "Enable_Profiling"}, // 38
+	{0x00000851, 0x00000940, "Find_Nearest_Waypoint"}, // 39
+	{0x00000961, 0x000009ac, "Init_PIT"}, // 40
+	{0x000009c5, 0x00000a00, "Init_Profiling"}, // 41
+	{0x00000a0d, 0x00000a5e, "Init_RGB_LEDs"}, // 42
+	{0x00000a75, 0x00000afe, "PIT_IRQHandler"}, // 43
+	{0x00000b29, 0x00000bc0, "Sort_Profile"}, // 44
+	{0x00000bd1, 0x00000bdc, "Start_PIT"}, // 45
+	{0x00000be1, 0x00000c98, "SystemInit"}, // 46
+	{0x00000cc9, 0x00000cfa, "__ARM_common_ll_muluu"}, // 47
+	{0x00000cfb, 0x00000d08, "__ARM_common_memcpy4_10"}, // 48
+	{0x00000d09, 0x00000d2a, "__ARM_fpclassifyf"}, // 49
+	{0x00000d2b, 0x00000d34, "__mathlib_flt_infnan"}, // 50
+	{0x00000d35, 0x00000d3c, "__mathlib_flt_infnan2"}, // 51
+	{0x00000d3d, 0x00000d48, "__mathlib_flt_invalid"}, // 52
+	{0x00000d49, 0x00000d56, "__mathlib_flt_underflow"}, // 53
+	{0x00000d59, 0x00000ec6, "__mathlib_rredf2"}, // 54
+	{0x00000ed9, 0x00000fbc, "acosf"}, // 55
+	{0x00000fe5, 0x000011f2, "atan2f"}, // 56
+	{0x00001241, 0x0000137e, "cosf"}, // 57
+	{0x000013b9, 0x000013f8, "main"}, // 58
+	{0x00001401, 0x0000154a, "sinf"}, // 59
+	{0x00001585, 0x000015b0, "sqrtf"}, // 60
+	{0x000015b1, 0x00001636, "_fadd"}, // 61
+	{0x0000163d, 0x0000168a, "_fcmple"}, // 62
+	{0x00001691, 0x0000173c, "_fmul"}, // 63
+	{0x00001741, 0x00001758, "_frsb"}, // 64
+	{0x00001759, 0x00001824, "_fsub"}, // 65
+}; 
+const unsigned NumProfileRegions=66;
+volatile unsigned RegionCount[66];
+unsigned SortedRegions[66];
